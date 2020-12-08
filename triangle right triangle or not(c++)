@@ -1,0 +1,26 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+#include<conio.h>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<<"enter the value of a,b,c";
+    cin>>a>>b>>c;
+    if(a*a==b*b+c*c||b*b==c*c+a*a||c*c==a*a+b*b)
+    {
+        cout<<"the triangle is right triangle";
+    }
+    else
+    {
+    cout<<"the triangle is a scalen angle/n";
+    }
+}
